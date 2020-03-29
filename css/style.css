@@ -1,2 +1,53 @@
 /*import font from google font*/
 @import url('https://fonts.googleapis.com/css?family=Anton|Gugi|Lato|Roboto|Sofia&display=swap');
+
+:root{
+    --light-gray:#2b3032a1;
+    --primary-color:#45ccb8;
+    --border:#2b303218;
+    --text-color:#ff686b;
+    --robot:"Roboto",sans-serif;
+    --gugi:"Gugi",cursive;
+    --sofia:"Sofia",cursive;
+}
+
+.primary-color{
+    color:var(--primary-color);
+}
+
+.gb-primary-color{
+    background-color: var(--primary-color) !important;
+}
+
+.text-color{
+    color:var(--text-color);
+}
+
+.font-roboto{
+    font-family: var(--robot);
+}
+
+.lightblue{
+    color:lightblue;
+}
+
+/*header*/
+header{
+    background-color: var(--primary-color);
+    font-family: var(--robot);
+}
+
+h2.site-title{
+    font-family: var(--gugi);
+}
+
+.container.dropdown-toggle,
+.container.dropdown-item{
+    font-size:0.7em;
+}
+
+.header-links a{
+    font-size: 0.9em;
+    text-decoration: none;
+    color: white;
+}
