@@ -51,3 +51,23 @@ h2.site-title{
     text-decoration: none;
     color: white;
 }
+
+
+/*Navigation Bar*/
+
+.navbar-nav{
+    padding: 0.8em 0em;
+}
+
+.navbar-nav .nav-link{
+    font-size: 0.9em;
+    color:var(--light-gray) !important;
+}
+
+.navbar-nav .nav-item.nav-link{
+    padding: 01.3em;
+}
+
+.basket-icon{
+    margin-right: 6.5rem !important;
+}
