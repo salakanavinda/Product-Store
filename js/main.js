@@ -6,7 +6,8 @@ $('.slider-one')
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 3000,
-        prevArrow:"",
-        nextArrow:""
+        prevArrow:".prev",
+        nextArrow:".next",
+        dots: true,
     }
 );
