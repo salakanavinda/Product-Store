@@ -9,3 +9,16 @@ $('.slider-one')
          dots: true,
     }
 );
+
+
+$('.slider-two')
+.not(".slick-intialized")
+.slick(
+    {
+         slidesToShow: 5,
+         slidesToScroll: 1,
+         prevArrow:".prev2",
+         nextArrow:".next2"
+         
+    }
+);

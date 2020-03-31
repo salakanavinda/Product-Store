@@ -137,3 +137,31 @@ h2.site-title{
 }
 
 /*Slider tow*/
+
+.site-slider-two{
+    position: relative;
+    height: 30%;
+}
+
+.site-slider-two .product{
+    height: 25rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.site-btn.btn-span{
+    padding:0.8rem 1.9rem;
+    border-radius: 4rem;
+    border: 1px solid var(--border);
+    background-color: white;
+    color: var(--light-gray);
+}
+
+.site-slider-two .product img{
+    width:90%;
+    margin: auto;
+}
+
+.slick-track .product:hover span{
+    background-color:  var(--primary-color);
+}
